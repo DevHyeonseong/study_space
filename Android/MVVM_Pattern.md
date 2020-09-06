@@ -31,7 +31,6 @@
 	* 앱이 구조적으로 약한 결합의 컴포넌트로 나눠진다
 
 ## 4. MVVM 기본 원칙
-	* Model, View, ViewModel은 서로의 존재를 몰라야 한다
 	* View에서 액션을 받으면 ViewModel에서 비즈니스 로직을 실행한다
 	* ViewModel은 Model의 데이터를 수정한다
 	* ViewModel은 데이터 바인딩과 노티피케이션을 통해 View를 수정한다
