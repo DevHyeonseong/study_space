@@ -52,3 +52,4 @@
 [안드로이드 아키텍처 패턴 - MVVM이 뭘까?](https://velog.io/@jojo_devstory/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-%ED%8C%A8%ED%84%B4-MVVM%EC%9D%B4-%EB%AD%98%EA%B9%8C)
 
 [MVVM Part.1](https://woovictory.github.io/2019/06/09/What-is-MVVM/)
+
