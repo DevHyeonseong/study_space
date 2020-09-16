@@ -1,6 +1,6 @@
 # CS_Android_Theorem
 
-## * Android
+## Android
 [LiveData](https://github.com/DevHyeonseong/CS_Android_Theorem/blob/master/Android/LiveData.md)
 
 [MVP패턴](https://github.com/DevHyeonseong/CS_Android_Theorem/blob/master/Android/MVP_Pattern.md)
