@@ -1,6 +1,4 @@
-# CS_Android_Theorem
-
-## Android
+# Android
 [LiveData](https://github.com/DevHyeonseong/CS_Android_Theorem/blob/master/Android/LiveData.md)
 
 [MVP패턴](https://github.com/DevHyeonseong/CS_Android_Theorem/blob/master/Android/MVP_Pattern.md)
@@ -8,6 +6,8 @@
 [MVVM패턴](https://github.com/DevHyeonseong/CS_Android_Theorem/blob/master/Android/MVVM_Pattern.md)
 
 [Repository패턴](https://github.com/DevHyeonseong/CS_Android_Theorem/blob/master/Android/Repository%20pattern.md)
+
+# Computer Science
 
 ## Java
 [Generic](https://github.com/DevHyeonseong/CS_Android_Theorem/blob/master/Java/Generic.md)
