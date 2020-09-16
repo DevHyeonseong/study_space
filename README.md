@@ -14,7 +14,7 @@
 
 
 ## OS
-[CPU스케줄링](https://github.com/DevHyeonseong/CS_Android_Theorem/tree/master/OS)
+[CPU스케줄링](https://github.com/DevHyeonseong/CS_Android_Theorem/blob/master/OS/CPU%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81.md)
 
 [프로세스](https://github.com/DevHyeonseong/CS_Android_Theorem/blob/master/OS/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4.md)
 
