@@ -22,6 +22,8 @@
 
 [멀티 프로세스 vs 멀티 쓰레드](https://github.com/DevHyeonseong/CS_Android_Theorem/blob/master/OS/%EB%A9%80%ED%8B%B0%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%20vs%20%EB%A9%80%ED%8B%B0%20%EC%93%B0%EB%A0%88%EB%93%9C.md)
 
+[동기화](https://github.com/DevHyeonseong/Computer_Science/blob/master/OS/%EB%8F%99%EA%B8%B0%ED%99%94.md)
+
 ## Kotlin
 [scope_function](https://github.com/DevHyeonseong/CS_Android_Theorem/blob/master/kotlin/scope_function.md)
 
