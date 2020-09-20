@@ -24,6 +24,8 @@
 
 [동기화](https://github.com/DevHyeonseong/Computer_Science/blob/master/OS/%EB%8F%99%EA%B8%B0%ED%99%94.md)
 
+[교착상태](https://github.com/DevHyeonseong/Computer_Science/blob/master/OS/%EA%B5%90%EC%B0%A9%EC%83%81%ED%83%9C.md)
+
 ## Kotlin
 [scope_function](https://github.com/DevHyeonseong/CS_Android_Theorem/blob/master/kotlin/scope_function.md)
 
