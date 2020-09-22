@@ -26,6 +26,8 @@
 
 [교착상태](https://github.com/DevHyeonseong/Computer_Science/blob/master/OS/%EA%B5%90%EC%B0%A9%EC%83%81%ED%83%9C.md)
 
+[주소 바인딩과 주소 변환](https://github.com/DevHyeonseong/Computer_Science/blob/master/OS/%EC%A3%BC%EC%86%8C%20%EB%B0%94%EC%9D%B8%EB%94%A9%20%EA%B3%BC%20%EC%A3%BC%EC%86%8C%20%EB%B3%80%ED%99%98.md)
+
 ## Kotlin
 [scope_function](https://github.com/DevHyeonseong/CS_Android_Theorem/blob/master/kotlin/scope_function.md)
 
