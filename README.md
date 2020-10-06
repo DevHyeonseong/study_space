@@ -22,6 +22,8 @@
 ## Algorithm
 [퀵 정렬](https://github.com/DevHyeonseong/Computer_Science/blob/master/Algorithm/%ED%80%B5%20%EC%A0%95%EB%A0%AC.md)
 
+[병합 정렬](https://github.com/DevHyeonseong/Computer_Science/blob/master/Algorithm/%EB%B3%91%ED%95%A9%20%EC%A0%95%EB%A0%AC.md)
+
 ## OS
 [인터럽트](https://github.com/DevHyeonseong/Computer_Science/blob/master/OS/%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8.md)
 
