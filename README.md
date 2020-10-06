@@ -12,6 +12,15 @@
 ## Java
 [Generic](https://github.com/DevHyeonseong/CS_Android_Theorem/blob/master/Java/Generic.md)
 
+## Kotlin
+[scope_function](https://github.com/DevHyeonseong/CS_Android_Theorem/blob/master/kotlin/scope_function.md)
+
+[코틀린DSL](https://github.com/DevHyeonseong/CS_Android_Theorem/blob/master/kotlin/%EC%BD%94%ED%8B%80%EB%A6%B0DSL.md)
+
+[함수형프로그래밍](https://github.com/DevHyeonseong/CS_Android_Theorem/blob/master/kotlin/%ED%95%A8%EC%88%98%ED%98%95%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.md)
+
+## Algorithm
+[퀵 정렬](https://github.com/DevHyeonseong/Computer_Science/blob/master/Algorithm/%ED%80%B5%20%EC%A0%95%EB%A0%AC.md)
 
 ## OS
 [인터럽트](https://github.com/DevHyeonseong/Computer_Science/blob/master/OS/%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8.md)
@@ -30,9 +39,3 @@
 
 [주소 바인딩과 주소 변환](https://github.com/DevHyeonseong/Computer_Science/blob/master/OS/%EC%A3%BC%EC%86%8C%20%EB%B0%94%EC%9D%B8%EB%94%A9%20%EA%B3%BC%20%EC%A3%BC%EC%86%8C%20%EB%B3%80%ED%99%98.md)
 
-## Kotlin
-[scope_function](https://github.com/DevHyeonseong/CS_Android_Theorem/blob/master/kotlin/scope_function.md)
-
-[코틀린DSL](https://github.com/DevHyeonseong/CS_Android_Theorem/blob/master/kotlin/%EC%BD%94%ED%8B%80%EB%A6%B0DSL.md)
-
-[함수형프로그래밍](https://github.com/DevHyeonseong/CS_Android_Theorem/blob/master/kotlin/%ED%95%A8%EC%88%98%ED%98%95%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.md)
