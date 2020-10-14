@@ -41,3 +41,4 @@
 
 [주소 바인딩과 주소 변환](https://github.com/DevHyeonseong/Computer_Science/blob/master/OS/%EC%A3%BC%EC%86%8C%20%EB%B0%94%EC%9D%B8%EB%94%A9%20%EA%B3%BC%20%EC%A3%BC%EC%86%8C%20%EB%B3%80%ED%99%98.md)
 
+[단편화](https://github.com/DevHyeonseong/Computer_Science/blob/master/OS/%EB%8B%A8%ED%8E%B8%ED%99%94.md)
