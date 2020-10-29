@@ -12,7 +12,6 @@ Model, View, ViewModel 의 줄임말으로써, 하나의 소프트웨어를 최�
 
 ### 2.2 View
 	* UI를 담당하며 Activity, Fragment 등이 있다
-	* View와 Model 사이의 매개체 역할을 함
 	* UI 변경과 관련된 일부 로직은 포함될 수 있음.
 	* ViewModel을 관찰하고 있다가 상태 변화가 전달되면 화면을 갱신해야함
 
