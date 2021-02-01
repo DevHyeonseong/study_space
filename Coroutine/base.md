@@ -38,4 +38,6 @@
   * 보통 main() 메소드와 유닛 테스트에서 사용된다
   * runBlocking()은 코루틴의 실행이 끝날 때까지 현재 스레드를 차단한다
 
+---
 
+### Reference book : [Learning Concurrency in Kotlin]
