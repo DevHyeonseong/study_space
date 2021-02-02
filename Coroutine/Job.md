@@ -44,3 +44,6 @@
 #### 예외처리
 * 디퍼드는 처리되지 않은 예외가 발생해도 자동으로 전파하지 않는다.
 * 결과를 반환하는 await()가 호출될 때 디퍼드 안에서 발생한 예외가 전파된다
+
+---
+### Reference book : [Learning Concurrency in Kotlin]
