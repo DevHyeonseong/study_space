@@ -30,3 +30,17 @@
 ![스크린샷 2021-02-02 오후 3 01 08](https://user-images.githubusercontent.com/54322066/106558822-c4a33800-6567-11eb-9d1b-5faeb861c11b.png)
 ![스크린샷 2021-02-02 오후 3 02 14](https://user-images.githubusercontent.com/54322066/106558817-c2d97480-6567-11eb-8d35-c0ba26eb4e21.png)
 * cancel()호출시 Active -> Canceling -> Cancelled 상태변화. 취소됨은 완료로 간주되는 것을 확인할 수 있다
+
+* 잡의 상태는 앞으로만 이동할 수 있으며, 뒤로 되돌릴 수 없다.
+* 잡의 최종상태는 Cancelled 또는 Completed 이다
+
+---
+### Deferred
+
+#### 디퍼드(Deferred)
+* 디퍼드는 결과를 갖는 비동기 작업을 수행하기 위해 잡을 확장한다
+* async()를 사용하거나, CompletableDeferred의 생성자를 통해 생성할 수 있다
+
+#### 예외처리
+* 디퍼드는 처리되지 않은 예외가 발생해도 자동으로 전파하지 않는다.
+* 결과를 반환하는 await()가 호출될 때 디퍼드 안에서 발생한 예외가 전파된다
