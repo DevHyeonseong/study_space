@@ -1,0 +1,37 @@
+#### 안드로이드 공부 - 빠른앱 만들기 / 2020 네이버 테크 콘서트
+- 오버드로우 줄이기
+  - 중첩된 배경 제거
+  - 투명도 사용 삼가하기 -> 정해진 투명도 만큼 추가 연산이 들어가므로 좋지 않다
+- View의 간소화 및 갱신 빈도 낮추기
+  - onDraw()등 생명주기 메서드에서 메모리를 할당하거나 초기화하는 작업은 삼가한다
+  - onDraw(), onMeasure(), onLayout() 메서드가 자주 호출 되지 않도록 한다
+  - 무분별한 invalidate(), requestLayout() 호출 삼가하기
+- ConstraintLayout 사용하기
+  - 레이아웃 계층을 평탄화함
+  - 레이아웃 계층이 깊을수록 연산량이 증가하기 때문!
+  - 하위 계층으로 갈 수록 연산량이 급격하게 증가함
+- ViewStub 사용으로 느리게 초기화하기
+  - 초기화 지연
+  - 경량화된 View로 보이지않고, 아무것도 그리지 않음
+  - 복잡한 레이아웃에서 사용
+- RecyclerView 퍼포먼스 향상시키기
+  - 부분적으로 아이템들을 갱신시키는게 좋음
+  - DiffUtil 사용하기 : 두 리스트를 차이를 계산하고 변경된 부분만 갱신하도록 도와주는 유틸클래스
+  - setHasFixedSize(true) 호출하기
+  - setItemViewCacheSize(int) 호출하기
+    - itemView가 Pool로 들어가기 전에 유지되는 캐시의 사이즈를 결정한다
+  - setRecycledViewPool(RecyclerViewPool) 호출하기
+    - 리사이클러뷰간의 View pool을 공유하여 성능을 개선한다
+  - setHasaStabelIds(true) 호출하기
+    - 아이템에 대해 고유 식별자를 부여하여 동일한 아이템에 대해 onBindViewHolder호출을 방지하여 성능을 개선한다
+    - getItemId를 반드시 오버라이드 해야함
+- 앱 성능 개선 도구
+  - Layout Inspector
+  - Lint 사용 권장
+    - 빌드 이전에 잠재적인 문제 원일을 파악할 수 있다
+  - GPU 렌더링 속도 프로파일링
+  - GPU 오버드로우 시각화
+    - 개발자 옵션 > 하드웨어 가속 렌더링 > GPU 오버드로우 디버그 
+    - 파란색 1회, 녹색 2회, 분홍색 3회, 빨간색 4회
+
+
