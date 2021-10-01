@@ -1,0 +1,57 @@
+#### 안드로이드 공부 - 코루틴
+- Android11부터 AsyncTask deprecated
+- 코루틴의 내부적 동작
+  - 코틀린도 결국 JVM의 바이트코드로 컴파일된다
+  - Cotinutaion<R>의 파라미터를 넘긴다
+  - resumeWith() > 결과를 간단히 넘기기 위한 콜백
+  - suspend되는 포지션을 기준으로 label을 붙임
+  - state Machine을 사용해서 구현. 장점 : 복잡한 코드에 대응하기 좋음
+- 코루틴을 왜 쓰는 걸까
+  - Structured concurrency
+    - 구조화된 동시성 처리로 memory leak 방지
+    - 코루틴스코프를 통해서 실행을 강제하여 leak방지
+    - Light Weight -> 싱글 쓰레드에서 여러개의 코루틴 실행 가능
+    - Built-in cancellation -> 계층 구조를 따라 취소가 자동으로 전파됨
+    - 비동기 코드를 콜백대신 순차적으로 사용 간으
+- 코루틴의 시작, CoroutinScope
+  - 대표적인 빌더 : launch, async
+  - launch
+    - 결과 값이 필요하지 않는 경우 사용, Exception 전파
+  - async
+    - 결과 값을 리턴받아야 하는 경우 사용
+    - await() 호출까지 Exception 전파x
+  - GlobalScope
+    - 앱 전체 생명주기로 동작함
+    - 대부분의 경우에 사용하면 안 됨
+    - 코루틴 스코프를 지역적으로 나눠서 사용하는 이유는 메모리릭을 방지하기 위해
+- CoroutineContext
+  - Job
+    - Lifecycle 관리
+    - default : No parent job
+    - 계층 구조
+      - 형성 이유
+        - Parent Job에 동작이 취소가 됐을때 하위 잡들도 취소시키기 위함
+        - 하위 잡에서 이벤트가 발생시 위로 전달하기 위함
+      - 동작
+        - child job에서 실패가 발생시 형제자매에 전달, 익셉션을 위로 올림! 이런 동작을 원하지 않을경우 SupervisorJob을 사용하면됨. child job의 실패가 다른 child job으로 전달되지 않음
+  - CoroutineDispatcher
+    - 쓰레딩 처리. 지금 동작하는 이 코루틴이 어떤 쓰레드에서 작동하는지
+    - default : Dispatchers.Default
+    - Deault : CPU 인펜시브한 연산에 최적화 되어있음. 리스트 소팅등
+    - Main : 기본 UI쓰레드
+    - IO : 네트워크, 로컬 디스크에 접근 할 때 블로킹 IO에 최적화됨. Default와 쓰레드풀을 공유함. context 스위칭에 오버헤드가 적을 수 있다 
+  - CoroutineExceptionHandler
+    - 코루틴을 실행하면서 미처 잡지 못했던 예외 처리
+    - default : None
+  - CoroutineName
+    - 각각의 코루틴에 Name을 설정할 수 있음
+    - default : "coroutine"
+  - 인터페이스 정보
+    - interface key : 엘리먼트에 해당하는 키(잡, 디스패처 등)
+    - interface Element : 그 자체로 코루틴 컨텍스트 구현
+    - key에 해당하는 엘리먼트를 operator로 가져올 수 있음
+    - plus operator : 뒤에오는 컨텍스트의 키값을 덮어씌우고 리턴
+- 동작
+  - launchWhenResumed : 런치를 실행했을때 Resume된 상태가 아니라면(Suspend 상태면) 라이프사이클이 Resume 됐을때 활성화
+
+
