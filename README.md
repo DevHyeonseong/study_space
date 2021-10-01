@@ -7,6 +7,8 @@
 
 [MVVM패턴](https://github.com/DevHyeonseong/CS_Android_Theorem/blob/master/Android/MVVM_Pattern.md)
 
+[View의 성능을 향상시키는 법](https://github.com/DevHyeonseong/study_space/blob/master/Android/View_Performance_tip.md)
+
 [Repository패턴](https://github.com/DevHyeonseong/CS_Android_Theorem/blob/master/Android/Repository%20pattern.md)
 
 ## Coroutine
