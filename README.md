@@ -1,5 +1,3 @@
-# Clean Architecture
-
 # Android
 [LiveData](https://github.com/DevHyeonseong/CS_Android_Theorem/blob/master/Android/LiveData.md)
 
