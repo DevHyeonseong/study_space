@@ -9,6 +9,8 @@
 
 [Repository패턴](https://github.com/DevHyeonseong/CS_Android_Theorem/blob/master/Android/Repository%20pattern.md)
 
+[Compose_side-effect](https://github.com/DevHyeonseong/study_space/blob/master/Android/compose_side-effect.md)
+
 ## Coroutine
 [코루틴 기본](https://github.com/DevHyeonseong/Computer_Science/blob/master/Coroutine/base.md)
 
